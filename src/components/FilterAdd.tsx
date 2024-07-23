@@ -115,8 +115,8 @@ export function FilterAdd() {
             </div>
             <div
               onClick={() => setModal(!modal)}
-              className="flex justify-center items-center w-[5.625rem] h-[2.75rem] bg-[#7C5DFA] rounded-[1.5rem] gap-[0.5rem] cursor-pointer
-            md:w-[9.375rem]"
+              className="flex justify-center items-center w-[5.625rem] h-[2.75rem] bg-[#7C5DFA] rounded-[1.5rem] gap-4 cursor-pointer
+            md:w-[9.375rem] "
             >
               <img
                 src={Plus}
